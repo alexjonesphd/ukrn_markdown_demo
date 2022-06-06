@@ -13,7 +13,7 @@ library(tidyverse) # General data manipulation and plotting
 library(knitr) # building pretty tables
 
 # Read in the csv of our penguin data
-penguins <- read_csv('penguins_data.csv')
+penguins <- read_csv('data/penguins_data.csv')
 head(penguins, 5)
 ```
 
